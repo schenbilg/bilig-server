@@ -9,5 +9,3 @@
 
  ; set your dev database connection URL here
  :database-url "mysql://localhost:3306/bilg?user=root&password=root1234&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC&"
-
- ;:redis-conf [{:ip "10.220.19.15" :port 6379} {:ip "10.220.19.16" :port 6379} {:ip "10.220.19.17" :port 6379}]
