@@ -1,4 +1,4 @@
-(defproject bilig-server "0.0.2"
+(defproject bilig-server "0.0.1"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
 
