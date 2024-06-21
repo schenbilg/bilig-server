@@ -11,7 +11,3 @@
  :database-url "mysql://localhost:3306/yj?user=root&password=&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC&"
 
  ;:redis-conf [{:ip "10.220.19.15" :port 6379} {:ip "10.220.19.16" :port 6379} {:ip "10.220.19.17" :port 6379}]
-
- ;; 智慧随身厅外呼 活动同步地址
- ;:smart-hand-conf {:http [{:ip "127.0.0.1" :port 51007} {:ip "127.0.0.1" :port 51008}] :ftp {:ip "127.0.0.1" :user "username" :password "password"}}
- ;:check-key "xxxxxxxx"}
