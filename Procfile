@@ -1,1 +1,0 @@
-web: java -cp target/uberjar/bilig-server.jar clojure.main -m bilig-server.core
