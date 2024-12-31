@@ -35,6 +35,29 @@ at https://www.gnu.org/software/classpath/license.html.
 
 # 更新日志
 
+## 依赖版本更新 (project.clj)
+
+### 更新核心依赖到最新稳定版本
+- Clojure 核心升级到 1.11.1
+- Ring 框架升级到 1.10.0
+- Ring-defaults 升级到 0.4.0
+- Mount 升级到 0.1.18
+- Cprop 升级到 0.1.19
+- Logback 升级到 1.4.14
+
+### 新增依赖
+- Reitit 0.7.0-alpha7 (现代化路由库)
+- next.jdbc 1.3.894 (新一代 JDBC 库)
+- PostgreSQL 驱动 42.7.2
+- HikariCP 5.1.0 (高性能连接池)
+- SLF4J API 2.0.11 (日志接口)
+
+这次更新：
+- 提升了项目整体性能和安全性
+- 引入了更现代化的数据库访问方案
+- 优化了日志系统
+- 确保了各个依赖间的兼容性
+
 ## 配置文件修改 (src/clj/bilig/config.clj)
 
 ### 添加详细代码注释
