@@ -84,3 +84,16 @@ at https://www.gnu.org/software/classpath/license.html.
 - 改进了数据库迁移功能
 - 优化了会话管理
 - 增强了数据传输效率
+
+## 依赖修复更新
+
+### 解决依赖冲突和缺失
+- 添加 clj-time 0.15.2 支持时间处理
+- 添加 jackson-core 2.15.3 解决 JSON 处理依赖
+- 显式声明 joda-time 2.12.5 版本
+- 更新 compojure-api 到 2.0.0-alpha31
+
+修复内容：
+- 解决了 clj-time/jdbc 缺失问题
+- 处理了 Jackson 相关的依赖冲突
+- 统一了时间处理库的版本
