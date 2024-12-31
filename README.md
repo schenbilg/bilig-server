@@ -32,3 +32,18 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
+
+# 更新日志
+
+## 配置文件修改 (src/clj/bilig/config.clj)
+
+### 添加详细代码注释
+- 为整个配置模块添加了全面的中文注释
+- 说明了各个依赖库的用途
+- 解释了配置加载的优先级
+- 详细说明了配置热重载功能的使用场景
+
+注释的改进包括：
+- 对每个require的库添加了用途说明
+- 解释了env状态的作用和配置加载顺序
+- 说明了refresh-config函数的使用场景和工作原理
