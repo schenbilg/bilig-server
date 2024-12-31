@@ -70,3 +70,17 @@ at https://www.gnu.org/software/classpath/license.html.
 - 对每个require的库添加了用途说明
 - 解释了env状态的作用和配置加载顺序
 - 说明了refresh-config函数的使用场景和工作原理
+
+## Luminus 框架更新
+
+### 更新 Luminus 相关依赖到最新版本
+- luminus-http-kit 升级到 0.2.0
+- luminus-migrations 升级到 0.7.5
+- luminus-transit 升级到 0.1.6
+- ring-ttl-session 升级到 0.3.3
+
+更新优势：
+- 提升了 HTTP 服务器性能
+- 改进了数据库迁移功能
+- 优化了会话管理
+- 增强了数据传输效率
