@@ -8,8 +8,7 @@
 (defn user-register [user]
   (log/warn "start user-register ...." user)
   (let [result (mysql/user-register! user)]
-    (if (empty? result) "注册成功"))
-  )
+    (if (empty? result) "注册成功" "注册失败")))
 
 ;;api/user/login 用户登录
 ;(defn user-login []
