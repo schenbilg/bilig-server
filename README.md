@@ -97,3 +97,15 @@ at https://www.gnu.org/software/classpath/license.html.
 - 解决了 clj-time/jdbc 缺失问题
 - 处理了 Jackson 相关的依赖冲突
 - 统一了时间处理库的版本
+
+## 代码质量改进
+
+### 更新 clj-kondo 配置
+- 完善了 .clj-kondo/config.edn 配置
+- 添加了 user 命名空间的特殊处理
+- 优化了开发环境的静态分析体验
+
+改进内容：
+- 处理了 user 命名空间的警告
+- 保持了已有的 mount.core/defstate 配置
+- 改进了 REPL 开发体验

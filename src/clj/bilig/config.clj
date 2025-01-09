@@ -5,9 +5,8 @@
             [cprop.source :as source]
             [mount.core :as mount :refer [args defstate]]))
 
-;; env 是一个全局配置状态
-;; 使用mount的defstate宏定义，在应用启动时自动初始化
-;; 配置加载优先级：命令行参数 > 系统属性 > 环境变量
+;; 添加类型提示注释
+#_{:clj-kondo/ignore [:unresolved-symbol]}
 (defstate env
   :start
   (load-config
@@ -21,7 +20,9 @@
 ;; 使用场景：需要动态更新配置时调用此函数
 (defn refresh-config []
   (log/warn "refresh-config start")         ; 记录重载开始
+  #_{:clj-kondo/ignore [:unresolved-symbol]}
   (mount/stop #'bilig.config/env)           ; 停止当前配置状态
+  #_{:clj-kondo/ignore [:unresolved-symbol]}
   (mount/start #'bilig.config/env)          ; 重新加载配置
   (log/warn "env = " env)                   ; 输出新的配置内容用于确认
   (log/warn "refresh-config end"))          ; 记录重载完成
